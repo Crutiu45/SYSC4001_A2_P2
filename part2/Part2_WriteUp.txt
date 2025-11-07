@@ -1,0 +1,6 @@
+1.The fork() system call creates a new (child) process by duplicating the calling (parent) process. 
+The new process consists of a copy of the original process's address space. After fork(), both processes resume execution at the next instruction, with fork() returning 0 to the child and the child's process ID to the parent.
+
+2.The exec() function in a process replaces the process's memory space with a new program after the fork system call() has been called.
+exec() transforms the existing process by loading a different executable program, which differs from the fork() system call, where fork() creates a new process
+

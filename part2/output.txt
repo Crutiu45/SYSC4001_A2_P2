@@ -1,0 +1,783 @@
+Checking if all programs are compiled...
+All programs compiled successfully!
+
+Cleaning up all processes...
+=== Exercise 1: Using fork() ===
+Parent [PID: 489] - Cycle: 0, Counter: 0
+Child [PID: 491] - Cycle: 0, Counter: 0
+Parent [PID: 489] - Cycle: 1, Counter: 1
+Child [PID: 491] - Cycle: 1, Counter: 1
+Parent [PID: 489] - Cycle: 2, Counter: 2
+Child [PID: 491] - Cycle: 2, Counter: 2
+Parent [PID: 489] - Cycle: 3, Counter: 3
+Child [PID: 491] - Cycle: 3, Counter: 3
+Parent [PID: 489] - Cycle: 4, Counter: 4
+Child [PID: 491] - Cycle: 4, Counter: 4
+Parent [PID: 489] - Cycle: 5, Counter: 5
+Child [PID: 491] - Cycle: 5, Counter: 5
+Child [PID: 491] - Cycle: 6, Counter: 6
+Parent [PID: 489] - Cycle: 6, Counter: 6
+Child [PID: 491] - Cycle: 7, Counter: 7
+Parent [PID: 489] - Cycle: 7, Counter: 7
+Child [PID: 491] - Cycle: 8, Counter: 8
+Parent [PID: 489] - Cycle: 8, Counter: 8
+Child [PID: 491] - Cycle: 9, Counter: 9
+Parent [PID: 489] - Cycle: 9, Counter: 9
+Child [PID: 491] - Cycle: 10, Counter: 10
+Parent [PID: 489] - Cycle: 10, Counter: 10
+Child [PID: 491] - Cycle: 11, Counter: 11
+Parent [PID: 489] - Cycle: 11, Counter: 11
+Child [PID: 491] - Cycle: 12, Counter: 12
+Parent [PID: 489] - Cycle: 12, Counter: 12
+Child [PID: 491] - Cycle: 13, Counter: 13
+Parent [PID: 489] - Cycle: 13, Counter: 13
+Child [PID: 491] - Cycle: 14, Counter: 14
+Parent [PID: 489] - Cycle: 14, Counter: 14
+Child [PID: 491] - Cycle: 15, Counter: 15
+Parent [PID: 489] - Cycle: 15, Counter: 15
+Child [PID: 491] - Cycle: 16, Counter: 16
+Parent [PID: 489] - Cycle: 16, Counter: 16
+Child [PID: 491] - Cycle: 17, Counter: 17
+Parent [PID: 489] - Cycle: 17, Counter: 17
+Child [PID: 491] - Cycle: 18, Counter: 18
+Parent [PID: 489] - Cycle: 18, Counter: 18
+Child [PID: 491] - Cycle: 19, Counter: 19
+Parent [PID: 489] - Cycle: 19, Counter: 19
+Child [PID: 491] - Cycle: 20, Counter: 20
+Parent [PID: 489] - Cycle: 20, Counter: 20
+Child [PID: 491] - Cycle: 21, Counter: 21
+Parent [PID: 489] - Cycle: 21, Counter: 21
+Child [PID: 491] - Cycle: 22, Counter: 22
+Parent [PID: 489] - Cycle: 22, Counter: 22
+Child [PID: 491] - Cycle: 23, Counter: 23
+Parent [PID: 489] - Cycle: 23, Counter: 23
+Child [PID: 491] - Cycle: 24, Counter: 24
+Parent [PID: 489] - Cycle: 24, Counter: 24
+Child [PID: 491] - Cycle: 25, Counter: 25
+Parent [PID: 489] - Cycle: 25, Counter: 25
+Child [PID: 491] - Cycle: 26, Counter: 26
+Parent [PID: 489] - Cycle: 26, Counter: 26
+Child [PID: 491] - Cycle: 27, Counter: 27
+Parent [PID: 489] - Cycle: 27, Counter: 27
+Child [PID: 491] - Cycle: 28, Counter: 28
+Parent [PID: 489] - Cycle: 28, Counter: 28
+Child [PID: 491] - Cycle: 29, Counter: 29
+Parent [PID: 489] - Cycle: 29, Counter: 29
+Exercise 1 completed (process terminated)
+
+=== Exercise 2: Using Exec ===
+Process 1 [PID: 494] - Cycle: 1 - 0 is a multiple of 3
+Proccess 2 [PID: 492]  - Cycle: 1 - Counter: 0
+Child [PID: 491] - Cycle: 30, Counter: 30
+Process 1 [PID: 494] - Cycle: 2 - Counter: 1
+Proccess 2 [PID: 492]  - Cycle: 2 - Counter: -1
+Child [PID: 491] - Cycle: 31, Counter: 31
+Process 1 [PID: 494] - Cycle: 3 - Counter: 2
+Proccess 2 [PID: 492]  - Cycle: 3 - Counter: -2
+Child [PID: 491] - Cycle: 32, Counter: 32
+Proccess 2 [PID: 492]  - Cycle: 4 - Counter: -3
+Process 1 [PID: 494] - Cycle: 4 - 3 is a multiple of 3
+Child [PID: 491] - Cycle: 33, Counter: 33
+Proccess 2 [PID: 492]  - Cycle: 5 - Counter: -4
+Process 1 [PID: 494] - Cycle: 5 - Counter: 4
+Child [PID: 491] - Cycle: 34, Counter: 34
+Proccess 2 [PID: 492]  - Cycle: 6 - Counter: -5
+Process 1 [PID: 494] - Cycle: 6 - Counter: 5
+Child [PID: 491] - Cycle: 35, Counter: 35
+Proccess 2 [PID: 492]  - Cycle: 7 - Counter: -6
+Process 1 [PID: 494] - Cycle: 7 - 6 is a multiple of 3
+Child [PID: 491] - Cycle: 36, Counter: 36
+Proccess 2 [PID: 492]  - Cycle: 8 - Counter: -7
+Process 1 [PID: 494] - Cycle: 8 - Counter: 7
+Child [PID: 491] - Cycle: 37, Counter: 37
+Proccess 2 [PID: 492]  - Cycle: 9 - Counter: -8
+Process 1 [PID: 494] - Cycle: 9 - Counter: 8
+Child [PID: 491] - Cycle: 38, Counter: 38
+Proccess 2 [PID: 492]  - Cycle: 10 - Counter: -9
+Process 1 [PID: 494] - Cycle: 10 - 9 is a multiple of 3
+Child [PID: 491] - Cycle: 39, Counter: 39
+Proccess 2 [PID: 492]  - Cycle: 11 - Counter: -10
+Process 1 [PID: 494] - Cycle: 11 - Counter: 10
+Child [PID: 491] - Cycle: 40, Counter: 40
+Proccess 2 [PID: 492]  - Cycle: 12 - Counter: -11
+Process 1 [PID: 494] - Cycle: 12 - Counter: 11
+Child [PID: 491] - Cycle: 41, Counter: 41
+Proccess 2 [PID: 492]  - Cycle: 13 - Counter: -12
+Process 1 [PID: 494] - Cycle: 13 - 12 is a multiple of 3
+Child [PID: 491] - Cycle: 42, Counter: 42
+Proccess 2 [PID: 492]  - Cycle: 14 - Counter: -13
+Process 1 [PID: 494] - Cycle: 14 - Counter: 13
+Child [PID: 491] - Cycle: 43, Counter: 43
+Proccess 2 [PID: 492]  - Cycle: 15 - Counter: -14
+Process 1 [PID: 494] - Cycle: 15 - Counter: 14
+Child [PID: 491] - Cycle: 44, Counter: 44
+Proccess 2 [PID: 492]  - Cycle: 16 - Counter: -15
+Process 1 [PID: 494] - Cycle: 16 - 15 is a multiple of 3
+Child [PID: 491] - Cycle: 45, Counter: 45
+Proccess 2 [PID: 492]  - Cycle: 17 - Counter: -16
+Process 1 [PID: 494] - Cycle: 17 - Counter: 16
+Child [PID: 491] - Cycle: 46, Counter: 46
+Proccess 2 [PID: 492]  - Cycle: 18 - Counter: -17
+Process 1 [PID: 494] - Cycle: 18 - Counter: 17
+Child [PID: 491] - Cycle: 47, Counter: 47
+Proccess 2 [PID: 492]  - Cycle: 19 - Counter: -18
+Process 1 [PID: 494] - Cycle: 19 - 18 is a multiple of 3
+Child [PID: 491] - Cycle: 48, Counter: 48
+Proccess 2 [PID: 492]  - Cycle: 20 - Counter: -19
+Process 1 [PID: 494] - Cycle: 20 - Counter: 19
+Child [PID: 491] - Cycle: 49, Counter: 49
+Proccess 2 [PID: 492]  - Cycle: 21 - Counter: -20
+Process 1 [PID: 494] - Cycle: 21 - Counter: 20
+Child [PID: 491] - Cycle: 50, Counter: 50
+Proccess 2 [PID: 492]  - Cycle: 22 - Counter: -21
+Process 1 [PID: 494] - Cycle: 22 - 21 is a multiple of 3
+Child [PID: 491] - Cycle: 51, Counter: 51
+Proccess 2 [PID: 492]  - Cycle: 23 - Counter: -22
+Process 1 [PID: 494] - Cycle: 23 - Counter: 22
+Child [PID: 491] - Cycle: 52, Counter: 52
+Proccess 2 [PID: 492]  - Cycle: 24 - Counter: -23
+Process 1 [PID: 494] - Cycle: 24 - Counter: 23
+Child [PID: 491] - Cycle: 53, Counter: 53
+Proccess 2 [PID: 492]  - Cycle: 25 - Counter: -24
+Process 1 [PID: 494] - Cycle: 25 - 24 is a multiple of 3
+Child [PID: 491] - Cycle: 54, Counter: 54
+Proccess 2 [PID: 492]  - Cycle: 26 - Counter: -25
+Process 1 [PID: 494] - Cycle: 26 - Counter: 25
+Child [PID: 491] - Cycle: 55, Counter: 55
+Proccess 2 [PID: 492]  - Cycle: 27 - Counter: -26
+Process 1 [PID: 494] - Cycle: 27 - Counter: 26
+Child [PID: 491] - Cycle: 56, Counter: 56
+Proccess 2 [PID: 492]  - Cycle: 28 - Counter: -27
+Process 1 [PID: 494] - Cycle: 28 - 27 is a multiple of 3
+Child [PID: 491] - Cycle: 57, Counter: 57
+Proccess 2 [PID: 492]  - Cycle: 29 - Counter: -28
+Process 1 [PID: 494] - Cycle: 29 - Counter: 28
+Child [PID: 491] - Cycle: 58, Counter: 58
+Proccess 2 [PID: 492]  - Cycle: 30 - Counter: -29
+Process 1 [PID: 494] - Cycle: 30 - Counter: 29
+Child [PID: 491] - Cycle: 59, Counter: 59
+Exercise 2 completed (processes terminated)
+
+=== Exercise 3: Using Wait ===
+Child [PID: 491] - Cycle: 60, Counter: 60
+Child [PID: 498] - Cycle: 0, Counter: 0
+Child [PID: 498] - Cycle: 1, Counter: -1
+Child [PID: 498] - Cycle: 2, Counter: -2
+Child [PID: 498] - Cycle: 3, Counter: -3
+Child [PID: 498] - Cycle: 4, Counter: -4
+Child [PID: 498] - Cycle: 5, Counter: -5
+Child [PID: 498] - Cycle: 6, Counter: -6
+Child [PID: 498] - Cycle: 7, Counter: -7
+Child [PID: 498] - Cycle: 8, Counter: -8
+Child [PID: 498] - Cycle: 9, Counter: -9
+Child [PID: 498] - Cycle: 10, Counter: -10
+Child [PID: 498] - Cycle: 11, Counter: -11
+Child [PID: 498] - Cycle: 12, Counter: -12
+Child [PID: 498] - Cycle: 13, Counter: -13
+Child [PID: 498] - Cycle: 14, Counter: -14
+Child [PID: 498] - Cycle: 15, Counter: -15
+Child [PID: 498] - Cycle: 16, Counter: -16
+Child [PID: 498] - Cycle: 17, Counter: -17
+Child [PID: 498] - Cycle: 18, Counter: -18
+Child [PID: 498] - Cycle: 19, Counter: -19
+Child [PID: 498] - Cycle: 20, Counter: -20
+Child [PID: 498] - Cycle: 21, Counter: -21
+Child [PID: 498] - Cycle: 22, Counter: -22
+Child [PID: 498] - Cycle: 23, Counter: -23
+Child [PID: 498] - Cycle: 24, Counter: -24
+Child [PID: 498] - Cycle: 25, Counter: -25
+Child [PID: 498] - Cycle: 26, Counter: -26
+Child [PID: 498] - Cycle: 27, Counter: -27
+Child [PID: 498] - Cycle: 28, Counter: -28
+Child [PID: 498] - Cycle: 29, Counter: -29
+Child [PID: 498] - Cycle: 30, Counter: -30
+Child [PID: 498] - Cycle: 31, Counter: -31
+Child [PID: 498] - Cycle: 32, Counter: -32
+Child [PID: 498] - Cycle: 33, Counter: -33
+Child [PID: 498] - Cycle: 34, Counter: -34
+Child [PID: 498] - Cycle: 35, Counter: -35
+Child [PID: 498] - Cycle: 36, Counter: -36
+Child [PID: 498] - Cycle: 37, Counter: -37
+Child [PID: 498] - Cycle: 38, Counter: -38
+Child [PID: 498] - Cycle: 39, Counter: -39
+Child [PID: 498] - Cycle: 40, Counter: -40
+Child [PID: 498] - Cycle: 41, Counter: -41
+Child [PID: 498] - Cycle: 42, Counter: -42
+Child [PID: 498] - Cycle: 43, Counter: -43
+Child [PID: 498] - Cycle: 44, Counter: -44
+Child [PID: 498] - Cycle: 45, Counter: -45
+Child [PID: 498] - Cycle: 46, Counter: -46
+Child [PID: 498] - Cycle: 47, Counter: -47
+Child [PID: 498] - Cycle: 48, Counter: -48
+Child [PID: 498] - Cycle: 49, Counter: -49
+Child [PID: 498] - Cycle: 50, Counter: -50
+Child [PID: 498] - Cycle: 51, Counter: -51
+Child [PID: 498] - Cycle: 52, Counter: -52
+Child [PID: 498] - Cycle: 53, Counter: -53
+Child [PID: 498] - Cycle: 54, Counter: -54
+Child [PID: 498] - Cycle: 55, Counter: -55
+Child [PID: 498] - Cycle: 56, Counter: -56
+Child [PID: 498] - Cycle: 57, Counter: -57
+Child [PID: 498] - Cycle: 58, Counter: -58
+Child [PID: 498] - Cycle: 59, Counter: -59
+Child [PID: 498] - Cycle: 60, Counter: -60
+Child [PID: 498] - Cycle: 61, Counter: -61
+Child [PID: 498] - Cycle: 62, Counter: -62
+Child [PID: 498] - Cycle: 63, Counter: -63
+Child [PID: 498] - Cycle: 64, Counter: -64
+Child [PID: 498] - Cycle: 65, Counter: -65
+Child [PID: 498] - Cycle: 66, Counter: -66
+Child [PID: 498] - Cycle: 67, Counter: -67
+Child [PID: 498] - Cycle: 68, Counter: -68
+Child [PID: 498] - Cycle: 69, Counter: -69
+Child [PID: 498] - Cycle: 70, Counter: -70
+Child [PID: 498] - Cycle: 71, Counter: -71
+Child [PID: 498] - Cycle: 72, Counter: -72
+Child [PID: 498] - Cycle: 73, Counter: -73
+Child [PID: 498] - Cycle: 74, Counter: -74
+Child [PID: 498] - Cycle: 75, Counter: -75
+Child [PID: 498] - Cycle: 76, Counter: -76
+Child [PID: 498] - Cycle: 77, Counter: -77
+Child [PID: 498] - Cycle: 78, Counter: -78
+Child [PID: 498] - Cycle: 79, Counter: -79
+Child [PID: 498] - Cycle: 80, Counter: -80
+Child [PID: 498] - Cycle: 81, Counter: -81
+Child [PID: 498] - Cycle: 82, Counter: -82
+Child [PID: 498] - Cycle: 83, Counter: -83
+Child [PID: 498] - Cycle: 84, Counter: -84
+Child [PID: 498] - Cycle: 85, Counter: -85
+Child [PID: 498] - Cycle: 86, Counter: -86
+Child [PID: 498] - Cycle: 87, Counter: -87
+Child [PID: 498] - Cycle: 88, Counter: -88
+Child [PID: 498] - Cycle: 89, Counter: -89
+Child [PID: 498] - Cycle: 90, Counter: -90
+Child [PID: 498] - Cycle: 91, Counter: -91
+Child [PID: 498] - Cycle: 92, Counter: -92
+Child [PID: 498] - Cycle: 93, Counter: -93
+Child [PID: 498] - Cycle: 94, Counter: -94
+Child [PID: 498] - Cycle: 95, Counter: -95
+Child [PID: 498] - Cycle: 96, Counter: -96
+Child [PID: 498] - Cycle: 97, Counter: -97
+Child [PID: 498] - Cycle: 98, Counter: -98
+Child [PID: 498] - Cycle: 99, Counter: -99
+Child [PID: 498] - Cycle: 100, Counter: -100
+Child [PID: 498] - Cycle: 101, Counter: -101
+Child [PID: 498] - Cycle: 102, Counter: -102
+Child [PID: 498] - Cycle: 103, Counter: -103
+Child [PID: 498] - Cycle: 104, Counter: -104
+Child [PID: 498] - Cycle: 105, Counter: -105
+Child [PID: 498] - Cycle: 106, Counter: -106
+Child [PID: 498] - Cycle: 107, Counter: -107
+Child [PID: 498] - Cycle: 108, Counter: -108
+Child [PID: 498] - Cycle: 109, Counter: -109
+Child [PID: 498] - Cycle: 110, Counter: -110
+Child [PID: 498] - Cycle: 111, Counter: -111
+Child [PID: 498] - Cycle: 112, Counter: -112
+Child [PID: 498] - Cycle: 113, Counter: -113
+Child [PID: 498] - Cycle: 114, Counter: -114
+Child [PID: 498] - Cycle: 115, Counter: -115
+Child [PID: 498] - Cycle: 116, Counter: -116
+Child [PID: 498] - Cycle: 117, Counter: -117
+Child [PID: 498] - Cycle: 118, Counter: -118
+Child [PID: 498] - Cycle: 119, Counter: -119
+Child [PID: 498] - Cycle: 120, Counter: -120
+Child [PID: 498] - Cycle: 121, Counter: -121
+Child [PID: 498] - Cycle: 122, Counter: -122
+Child [PID: 498] - Cycle: 123, Counter: -123
+Child [PID: 498] - Cycle: 124, Counter: -124
+Child [PID: 498] - Cycle: 125, Counter: -125
+Child [PID: 498] - Cycle: 126, Counter: -126
+Child [PID: 498] - Cycle: 127, Counter: -127
+Child [PID: 498] - Cycle: 128, Counter: -128
+Child [PID: 498] - Cycle: 129, Counter: -129
+Child [PID: 498] - Cycle: 130, Counter: -130
+Child [PID: 498] - Cycle: 131, Counter: -131
+Child [PID: 498] - Cycle: 132, Counter: -132
+Child [PID: 498] - Cycle: 133, Counter: -133
+Child [PID: 498] - Cycle: 134, Counter: -134
+Child [PID: 498] - Cycle: 135, Counter: -135
+Child [PID: 498] - Cycle: 136, Counter: -136
+Child [PID: 498] - Cycle: 137, Counter: -137
+Child [PID: 498] - Cycle: 138, Counter: -138
+Child [PID: 498] - Cycle: 139, Counter: -139
+Child [PID: 498] - Cycle: 140, Counter: -140
+Child [PID: 498] - Cycle: 141, Counter: -141
+Child [PID: 498] - Cycle: 142, Counter: -142
+Child [PID: 498] - Cycle: 143, Counter: -143
+Child [PID: 498] - Cycle: 144, Counter: -144
+Child [PID: 498] - Cycle: 145, Counter: -145
+Child [PID: 498] - Cycle: 146, Counter: -146
+Child [PID: 498] - Cycle: 147, Counter: -147
+Child [PID: 498] - Cycle: 148, Counter: -148
+Child [PID: 498] - Cycle: 149, Counter: -149
+Child [PID: 498] - Cycle: 150, Counter: -150
+Child [PID: 498] - Cycle: 151, Counter: -151
+Child [PID: 498] - Cycle: 152, Counter: -152
+Child [PID: 498] - Cycle: 153, Counter: -153
+Child [PID: 498] - Cycle: 154, Counter: -154
+Child [PID: 498] - Cycle: 155, Counter: -155
+Child [PID: 498] - Cycle: 156, Counter: -156
+Child [PID: 498] - Cycle: 157, Counter: -157
+Child [PID: 498] - Cycle: 158, Counter: -158
+Child [PID: 498] - Cycle: 159, Counter: -159
+Child [PID: 498] - Cycle: 160, Counter: -160
+Child [PID: 498] - Cycle: 161, Counter: -161
+Child [PID: 498] - Cycle: 162, Counter: -162
+Child [PID: 498] - Cycle: 163, Counter: -163
+Child [PID: 498] - Cycle: 164, Counter: -164
+Child [PID: 498] - Cycle: 165, Counter: -165
+Child [PID: 498] - Cycle: 166, Counter: -166
+Child [PID: 498] - Cycle: 167, Counter: -167
+Child [PID: 498] - Cycle: 168, Counter: -168
+Child [PID: 498] - Cycle: 169, Counter: -169
+Child [PID: 498] - Cycle: 170, Counter: -170
+Child [PID: 498] - Cycle: 171, Counter: -171
+Child [PID: 498] - Cycle: 172, Counter: -172
+Child [PID: 498] - Cycle: 173, Counter: -173
+Child [PID: 498] - Cycle: 174, Counter: -174
+Child [PID: 498] - Cycle: 175, Counter: -175
+Child [PID: 498] - Cycle: 176, Counter: -176
+Child [PID: 498] - Cycle: 177, Counter: -177
+Child [PID: 498] - Cycle: 178, Counter: -178
+Child [PID: 498] - Cycle: 179, Counter: -179
+Child [PID: 498] - Cycle: 180, Counter: -180
+Child [PID: 498] - Cycle: 181, Counter: -181
+Child [PID: 498] - Cycle: 182, Counter: -182
+Child [PID: 498] - Cycle: 183, Counter: -183
+Child [PID: 498] - Cycle: 184, Counter: -184
+Child [PID: 498] - Cycle: 185, Counter: -185
+Child [PID: 498] - Cycle: 186, Counter: -18Child [PID: 491] - Cycle: 61, Counter: 61
+6
+Child [PID: 498] - Cycle: 187, Counter: -187
+Child [PID: 498] - Cycle: 188, Counter: -188
+Child [PID: 498] - Cycle: 189, Counter: -189
+Child [PID: 498] - Cycle: 190, Counter: -190
+Child [PID: 498] - Cycle: 191, Counter: -191
+Child [PID: 498] - Cycle: 192, Counter: -192
+Child [PID: 498] - Cycle: 193, Counter: -193
+Child [PID: 498] - Cycle: 194, Counter: -194
+Child [PID: 498] - Cycle: 195, Counter: -195
+Child [PID: 498] - Cycle: 196, Counter: -196
+Child [PID: 498] - Cycle: 197, Counter: -197
+Child [PID: 498] - Cycle: 198, Counter: -198
+Child [PID: 498] - Cycle: 199, Counter: -199
+Child [PID: 498] - Cycle: 200, Counter: -200
+Child [PID: 498] - Cycle: 201, Counter: -201
+Child [PID: 498] - Cycle: 202, Counter: -202
+Child [PID: 498] - Cycle: 203, Counter: -203
+Child [PID: 498] - Cycle: 204, Counter: -204
+Child [PID: 498] - Cycle: 205, Counter: -205
+Child [PID: 498] - Cycle: 206, Counter: -206
+Child [PID: 498] - Cycle: 207, Counter: -207
+Child [PID: 498] - Cycle: 208, Counter: -208
+Child [PID: 498] - Cycle: 209, Counter: -209
+Child [PID: 498] - Cycle: 210, Counter: -210
+Child [PID: 498] - Cycle: 211, Counter: -211
+Child [PID: 498] - Cycle: 212, Counter: -212
+Child [PID: 498] - Cycle: 213, Counter: -213
+Child [PID: 498] - Cycle: 214, Counter: -214
+Child [PID: 498] - Cycle: 215, Counter: -215
+Child [PID: 498] - Cycle: 216, Counter: -216
+Child [PID: 498] - Cycle: 217, Counter: -217
+Child [PID: 498] - Cycle: 218, Counter: -218
+Child [PID: 498] - Cycle: 219, Counter: -219
+Child [PID: 498] - Cycle: 220, Counter: -220
+Child [PID: 498] - Cycle: 221, Counter: -221
+Child [PID: 498] - Cycle: 222, Counter: -222
+Child [PID: 498] - Cycle: 223, Counter: -223
+Child [PID: 498] - Cycle: 224, Counter: -224
+Child [PID: 498] - Cycle: 225, Counter: -225
+Child [PID: 498] - Cycle: 226, Counter: -226
+Child [PID: 498] - Cycle: 227, Counter: -227
+Child [PID: 498] - Cycle: 228, Counter: -228
+Child [PID: 498] - Cycle: 229, Counter: -229
+Child [PID: 498] - Cycle: 230, Counter: -230
+Child [PID: 498] - Cycle: 231, Counter: -231
+Child [PID: 498] - Cycle: 232, Counter: -232
+Child [PID: 498] - Cycle: 233, Counter: -233
+Child [PID: 498] - Cycle: 234, Counter: -234
+Child [PID: 498] - Cycle: 235, Counter: -235
+Child [PID: 498] - Cycle: 236, Counter: -236
+Child [PID: 498] - Cycle: 237, Counter: -237
+Child [PID: 498] - Cycle: 238, Counter: -238
+Child [PID: 498] - Cycle: 239, Counter: -239
+Child [PID: 498] - Cycle: 240, Counter: -240
+Child [PID: 498] - Cycle: 241, Counter: -241
+Child [PID: 498] - Cycle: 242, Counter: -242
+Child [PID: 498] - Cycle: 243, Counter: -243
+Child [PID: 498] - Cycle: 244, Counter: -244
+Child [PID: 498] - Cycle: 245, Counter: -245
+Child [PID: 498] - Cycle: 246, Counter: -246
+Child [PID: 498] - Cycle: 247, Counter: -247
+Child [PID: 498] - Cycle: 248, Counter: -248
+Child [PID: 498] - Cycle: 249, Counter: -249
+Child [PID: 498] - Cycle: 250, Counter: -250
+Child [PID: 498] - Cycle: 251, Counter: -251
+Child [PID: 498] - Cycle: 252, Counter: -252
+Child [PID: 498] - Cycle: 253, Counter: -253
+Child [PID: 498] - Cycle: 254, Counter: -254
+Child [PID: 498] - Cycle: 255, Counter: -255
+Child [PID: 498] - Cycle: 256, Counter: -256
+Child [PID: 498] - Cycle: 257, Counter: -257
+Child [PID: 498] - Cycle: 258, Counter: -258
+Child [PID: 498] - Cycle: 259, Counter: -259
+Child [PID: 498] - Cycle: 260, Counter: -260
+Child [PID: 498] - Cycle: 261, Counter: -261
+Child [PID: 498] - Cycle: 262, Counter: -262
+Child [PID: 498] - Cycle: 263, Counter: -263
+Child [PID: 498] - Cycle: 264, Counter: -264
+Child [PID: 498] - Cycle: 265, Counter: -265
+Child [PID: 498] - Cycle: 266, Counter: -266
+Child [PID: 498] - Cycle: 267, Counter: -267
+Child [PID: 498] - Cycle: 268, Counter: -268
+Child [PID: 498] - Cycle: 269, Counter: -269
+Child [PID: 498] - Cycle: 270, Counter: -270
+Child [PID: 498] - Cycle: 271, Counter: -271
+Child [PID: 498] - Cycle: 272, Counter: -272
+Child [PID: 498] - Cycle: 273, Counter: -273
+Child [PID: 498] - Cycle: 274, Counter: -274
+Child [PID: 498] - Cycle: 275, Counter: -275
+Child [PID: 498] - Cycle: 276, Counter: -276
+Child [PID: 498] - Cycle: 277, Counter: -277Child [PID: 491] - Cycle: 62, Counter: 62
+
+Child [PID: 498] - Cycle: 278, Counter: -278
+Child [PID: 498] - Cycle: 279, Counter: -279
+Child [PID: 498] - Cycle: 280, Counter: -280
+Child [PID: 498] - Cycle: 281, Counter: -281
+Child [PID: 498] - Cycle: 282, Counter: -282
+Child [PID: 498] - Cycle: 283, Counter: -283
+Child [PID: 498] - Cycle: 284, Counter: -284
+Child [PID: 498] - Cycle: 285, Counter: -285
+Child [PID: 498] - Cycle: 286, Counter: -286
+Child [PID: 498] - Cycle: 287, Counter: -287
+Child [PID: 498] - Cycle: 288, Counter: -288
+Child [PID: 498] - Cycle: 289, Counter: -289
+Child [PID: 498] - Cycle: 290, Counter: -290
+Child [PID: 498] - Cycle: 291, Counter: -291
+Child [PID: 498] - Cycle: 292, Counter: -292
+Child [PID: 498] - Cycle: 293, Counter: -293
+Child [PID: 498] - Cycle: 294, Counter: -294
+Child [PID: 498] - Cycle: 295, Counter: -295
+Child [PID: 498] - Cycle: 296, Counter: -296
+Child [PID: 498] - Cycle: 297, Counter: -297
+Child [PID: 498] - Cycle: 298, Counter: -298
+Child [PID: 498] - Cycle: 299, Counter: -299
+Child [PID: 498] - Cycle: 300, Counter: -300
+Child [PID: 498] - Cycle: 301, Counter: -301
+Child [PID: 498] - Cycle: 302, Counter: -302
+Child [PID: 498] - Cycle: 303, Counter: -303
+Child [PID: 498] - Cycle: 304, Counter: -304
+Child [PID: 498] - Cycle: 305, Counter: -305
+Child [PID: 498] - Cycle: 306, Counter: -306
+Child [PID: 498] - Cycle: 307, Counter: -307
+Child [PID: 498] - Cycle: 308, Counter: -308
+Child [PID: 498] - Cycle: 309, Counter: -309
+Child [PID: 498] - Cycle: 310, Counter: -310
+Child [PID: 498] - Cycle: 311, Counter: -311
+Child [PID: 498] - Cycle: 312, Counter: -312
+Child [PID: 498] - Cycle: 313, Counter: -313
+Child [PID: 498] - Cycle: 314, Counter: -314
+Child [PID: 498] - Cycle: 315, Counter: -315
+Child [PID: 498] - Cycle: 316, Counter: -316
+Child [PID: 498] - Cycle: 317, Counter: -317
+Child [PID: 498] - Cycle: 318, Counter: -318
+Child [PID: 498] - Cycle: 319, Counter: -319
+Child [PID: 498] - Cycle: 320, Counter: -320
+Child [PID: 498] - Cycle: 321, Counter: -321
+Child [PID: 498] - Cycle: 322, Counter: -322
+Child [PID: 498] - Cycle: 323, Counter: -323
+Child [PID: 498] - Cycle: 324, Counter: -324
+Child [PID: 498] - Cycle: 325, Counter: -325
+Child [PID: 498] - Cycle: 326, Counter: -326
+Child [PID: 498] - Cycle: 327, Counter: -327
+Child [PID: 498] - Cycle: 328, Counter: -328
+Child [PID: 498] - Cycle: 329, Counter: -329
+Child [PID: 498] - Cycle: 330, Counter: -330
+Child [PID: 498] - Cycle: 331, Counter: -331
+Child [PID: 498] - Cycle: 332, Counter: -332
+Child [PID: 498] - Cycle: 333, Counter: -333
+Child [PID: 498] - Cycle: 334, Counter: -334
+Child [PID: 498] - Cycle: 335, Counter: -335
+Child [PID: 498] - Cycle: 336, Counter: -336
+Child [PID: 498] - Cycle: 337, Counter: -337
+Child [PID: 498] - Cycle: 338, Counter: -338
+Child [PID: 498] - Cycle: 339, Counter: -339
+Child [PID: 498] - Cycle: 340, Counter: -340
+Child [PID: 498] - Cycle: 341, Counter: -341
+Child [PID: 498] - Cycle: 342, Counter: -342
+Child [PID: 498] - Cycle: 343, Counter: -343
+Child [PID: 498] - Cycle: 344, Counter: -344
+Child [PID: 498] - Cycle: 345, Counter: -345
+Child [PID: 498] - Cycle: 346, Counter: -346
+Child [PID: 498] - Cycle: 347, Counter: -347
+Child [PID: 498] - Cycle: 348, Counter: -348
+Child [PID: 498] - Cycle: 349, Counter: -349
+Child [PID: 498] - Cycle: 350, Counter: -350
+Child [PID: 498] - Cycle: 351, Counter: -351
+Child [PID: 498] - Cycle: 352, Counter: -352
+Child [PID: 498] - Cycle: 353, Counter: -353
+Child [PID: 498] - Cycle: 354, Counter: -354
+Child [PID: 498] - Cycle: 355, Counter: -355
+Child [PID: 498] - Cycle: 356, Counter: -356
+Child [PID: 498] - Cycle: 357, Counter: -357
+Child [PID: 498] - Cycle: 358, Counter: -358
+Child [PID: 498] - Cycle: 359, Counter: -359
+Child [PID: 498] - Cycle: 360, Counter: -360
+Child [PID: 498] - Cycle: 361, Counter: -361
+Child [PID: 498] - Cycle: 362, Counter: -362
+Child [PID: 498] - Cycle: 363, Counter: -363
+Child [PID: 498] - Cycle: 364, Counter: -364
+Child [PID: 498] - Cycle: 365, Counter: -365
+Child [PID: 498] - Cycle: 366, Counter: -366
+Child [PID: 498] - Cycle: 367, Counter: -367
+Child [PID: 498] - Cycle: 368, Counter: -368
+Child [PID: 491] - Cycle: 63, Counter: 63
+Child [PID: 498] - Cycle: 369, Counter: -369
+Child [PID: 498] - Cycle: 370, Counter: -370
+Child [PID: 498] - Cycle: 371, Counter: -371
+Child [PID: 498] - Cycle: 372, Counter: -372
+Child [PID: 498] - Cycle: 373, Counter: -373
+Child [PID: 498] - Cycle: 374, Counter: -374
+Child [PID: 498] - Cycle: 375, Counter: -375
+Child [PID: 498] - Cycle: 376, Counter: -376
+Child [PID: 498] - Cycle: 377, Counter: -377
+Child [PID: 498] - Cycle: 378, Counter: -378
+Child [PID: 498] - Cycle: 379, Counter: -379
+Child [PID: 498] - Cycle: 380, Counter: -380
+Child [PID: 498] - Cycle: 381, Counter: -381
+Child [PID: 498] - Cycle: 382, Counter: -382
+Child [PID: 498] - Cycle: 383, Counter: -383
+Child [PID: 498] - Cycle: 384, Counter: -384
+Child [PID: 498] - Cycle: 385, Counter: -385
+Child [PID: 498] - Cycle: 386, Counter: -386
+Child [PID: 498] - Cycle: 387, Counter: -387
+Child [PID: 498] - Cycle: 388, Counter: -388
+Child [PID: 498] - Cycle: 389, Counter: -389
+Child [PID: 498] - Cycle: 390, Counter: -390
+Child [PID: 498] - Cycle: 391, Counter: -391
+Child [PID: 498] - Cycle: 392, Counter: -392
+Child [PID: 498] - Cycle: 393, Counter: -393
+Child [PID: 498] - Cycle: 394, Counter: -394
+Child [PID: 498] - Cycle: 395, Counter: -395
+Child [PID: 498] - Cycle: 396, Counter: -396
+Child [PID: 498] - Cycle: 397, Counter: -397
+Child [PID: 498] - Cycle: 398, Counter: -398
+Child [PID: 498] - Cycle: 399, Counter: -399
+Child [PID: 498] - Cycle: 400, Counter: -400
+Child [PID: 498] - Cycle: 401, Counter: -401
+Child [PID: 498] - Cycle: 402, Counter: -402
+Child [PID: 498] - Cycle: 403, Counter: -403
+Child [PID: 498] - Cycle: 404, Counter: -404
+Child [PID: 498] - Cycle: 405, Counter: -405
+Child [PID: 498] - Cycle: 406, Counter: -406
+Child [PID: 498] - Cycle: 407, Counter: -407
+Child [PID: 498] - Cycle: 408, Counter: -408
+Child [PID: 498] - Cycle: 409, Counter: -409
+Child [PID: 498] - Cycle: 410, Counter: -410
+Child [PID: 498] - Cycle: 411, Counter: -411
+Child [PID: 498] - Cycle: 412, Counter: -412
+Child [PID: 498] - Cycle: 413, Counter: -413
+Child [PID: 498] - Cycle: 414, Counter: -414
+Child [PID: 498] - Cycle: 415, Counter: -415
+Child [PID: 498] - Cycle: 416, Counter: -416
+Child [PID: 498] - Cycle: 417, Counter: -417
+Child [PID: 498] - Cycle: 418, Counter: -418
+Child [PID: 498] - Cycle: 419, Counter: -419
+Child [PID: 498] - Cycle: 420, Counter: -420
+Child [PID: 498] - Cycle: 421, Counter: -421
+Child [PID: 498] - Cycle: 422, Counter: -422
+Child [PID: 498] - Cycle: 423, Counter: -423
+Child [PID: 498] - Cycle: 424, Counter: -424
+Child [PID: 498] - Cycle: 425, Counter: -425
+Child [PID: 498] - Cycle: 426, Counter: -426
+Child [PID: 498] - Cycle: 427, Counter: -427
+Child [PID: 498] - Cycle: 428, Counter: -428
+Child [PID: 498] - Cycle: 429, Counter: -429
+Child [PID: 498] - Cycle: 430, Counter: -430
+Child [PID: 498] - Cycle: 431, Counter: -431
+Child [PID: 498] - Cycle: 432, Counter: -432
+Child [PID: 498] - Cycle: 433, Counter: -433
+Child [PID: 498] - Cycle: 434, Counter: -434
+Child [PID: 498] - Cycle: 435, Counter: -435
+Child [PID: 498] - Cycle: 436, Counter: -436
+Child [PID: 498] - Cycle: 437, Counter: -437
+Child [PID: 498] - Cycle: 438, Counter: -438
+Child [PID: 498] - Cycle: 439, Counter: -439
+Child [PID: 498] - Cycle: 440, Counter: -440
+Child [PID: 498] - Cycle: 441, Counter: -441
+Child [PID: 498] - Cycle: 442, Counter: -442
+Child [PID: 498] - Cycle: 443, Counter: -443
+Child [PID: 498] - Cycle: 444, Counter: -444
+Child [PID: 498] - Cycle: 445, Counter: -445
+Child [PID: 498] - Cycle: 446, Counter: -446
+Child [PID: 498] - Cycle: 447, Counter: -447
+Child [PID: 498] - Cycle: 448, Counter: -448
+Child [PID: 498] - Cycle: 449, Counter: -449
+Child [PID: 498] - Cycle: 450, Counter: -450
+Child [PID: 498] - Cycle: 451, Counter: -451
+Child [PID: 498] - Cycle: 452, Counter: -452
+Child [PID: 498] - Cycle: 453, Counter: -453
+Child [PID: 498] - Cycle: 454, Counter: -454
+Child [PID: 498] - Cycle: 455, Counter: -455
+Child [PID: 498] - Cycle: 456, Counter: -456
+Child [PID: 498] - Cycle: 457, Counter: -457
+Child [PID: 498] - Cycle: 458, Counter: -458
+Child [PID: 498] - Cycle: 459, Counter: -459
+CChild [PID: 491] - Cycle: 64, Counter: 64
+hild [PID: 498] - Cycle: 460, Counter: -460
+Child [PID: 498] - Cycle: 461, Counter: -461
+Child [PID: 498] - Cycle: 462, Counter: -462
+Child [PID: 498] - Cycle: 463, Counter: -463
+Child [PID: 498] - Cycle: 464, Counter: -464
+Child [PID: 498] - Cycle: 465, Counter: -465
+Child [PID: 498] - Cycle: 466, Counter: -466
+Child [PID: 498] - Cycle: 467, Counter: -467
+Child [PID: 498] - Cycle: 468, Counter: -468
+Child [PID: 498] - Cycle: 469, Counter: -469
+Child [PID: 498] - Cycle: 470, Counter: -470
+Child [PID: 498] - Cycle: 471, Counter: -471
+Child [PID: 498] - Cycle: 472, Counter: -472
+Child [PID: 498] - Cycle: 473, Counter: -473
+Child [PID: 498] - Cycle: 474, Counter: -474
+Child [PID: 498] - Cycle: 475, Counter: -475
+Child [PID: 498] - Cycle: 476, Counter: -476
+Child [PID: 498] - Cycle: 477, Counter: -477
+Child [PID: 498] - Cycle: 478, Counter: -478
+Child [PID: 498] - Cycle: 479, Counter: -479
+Child [PID: 498] - Cycle: 480, Counter: -480
+Child [PID: 498] - Cycle: 481, Counter: -481
+Child [PID: 498] - Cycle: 482, Counter: -482
+Child [PID: 498] - Cycle: 483, Counter: -483
+Child [PID: 498] - Cycle: 484, Counter: -484
+Child [PID: 498] - Cycle: 485, Counter: -485
+Child [PID: 498] - Cycle: 486, Counter: -486
+Child [PID: 498] - Cycle: 487, Counter: -487
+Child [PID: 498] - Cycle: 488, Counter: -488
+Child [PID: 498] - Cycle: 489, Counter: -489
+Child [PID: 498] - Cycle: 490, Counter: -490
+Child [PID: 498] - Cycle: 491, Counter: -491
+Child [PID: 498] - Cycle: 492, Counter: -492
+Child [PID: 498] - Cycle: 493, Counter: -493
+Child [PID: 498] - Cycle: 494, Counter: -494
+Child [PID: 498] - Cycle: 495, Counter: -495
+Child [PID: 498] - Cycle: 496, Counter: -496
+Child [PID: 498] - Cycle: 497, Counter: -497
+Child [PID: 498] - Cycle: 498, Counter: -498
+Child [PID: 498] - Cycle: 499, Counter: -499
+Child [PID: 498] reached -500. Exiting...
+Parent [PID: 497] waiting for child [PID: 498]...
+Parent [PID: 497]: Child has finished. Parent exiting.
+Exercise 3 completed (ran to completion)
+
+=== Exercise 4: Shared Memory ===
+Child [PID: 491] - Cycle: 65, Counter: 65
+Child [PID: 491] - Cycle: 66, Counter: 66
+Child [PID: 491] - Cycle: 67, Counter: 67
+Child [PID: 491] - Cycle: 68, Counter: 68
+Child [PID: 491] - Cycle: 69, Counter: 69
+Child [PID: 491] - Cycle: 70, Counter: 70
+Child [PID: 491] - Cycle: 71, Counter: 71
+Child [PID: 491] - Cycle: 72, Counter: 72
+Child [PID: 491] - Cycle: 73, Counter: 73
+Child [PID: 491] - Cycle: 74, Counter: 74
+Child [PID: 500] started. Shared counter: 101
+Child [PID: 500]: 102 is a multiple of 3
+Child [PID: 500]: 111 is a multiple of 3
+Child [PID: 500]: 126 is a multiple of 3
+Child [PID: 500]: 141 is a multiple of 3
+Child [PID: 500]: 156 is a multiple of 3
+Child [PID: 500]: 165 is a multiple of 3
+Child [PID: 500]: 180 is a multiple of 3
+Child [PID: 500]: 195 is a multiple of 3
+Child [PID: 500]: 210 is a multiple of 3
+Child [PID: 500]: 219 is a multiple of 3
+Child [PID: 500]: 234 is a multiple of 3
+Child [PID: 500]: 249 is a multiple of 3
+Child [PID: 500]: 264 is a multiple of 3
+Child [PID: 500]: 273 is a multiple of 3
+Child [PID: 500]: 288 is a multiple of 3
+Child [PID: 500]: 303 is a multiple of 3
+Child [PID: 500]: 327 is a multiple of 3
+Child [PID: 500]: 342 is a multiple of 3
+Child [PID: 500]: 366 is a multiple of 3
+Child [PID: 500]: 381 is a multiple of 3
+Child [PID: 500]: 390 is a multiple of 3
+Child [PID: 500]: 405 is a multiple of 3
+Child [PID: 500]: 420 is a multiple of 3
+Child [PID: 500]: 444 is a multiple of 3
+Child [PID: 500]: 459 is a multiple of 3
+Child [PID: 500]: 474 is a multiple of 3
+Child [PID: 500]: 483 is a multiple of 3
+Child [PID: 500]: 498 is a multiple of 3
+Child [PID: 500] finished (counter > 500)
+Parent [PID: 499] started. Incrementing counter...
+Parent [PID: 499]: Counter = 50
+Parent [PID: 499]: Counter = 100
+Parent [PID: 499]: Counter = 150
+Parent [PID: 499]: Counter = 200
+Parent [PID: 499]: Counter = 250
+Parent [PID: 499]: Counter = 300
+Parent [PID: 499]: Counter = 350
+Parent [PID: 499]: Counter = 400
+Parent [PID: 499]: Counter = 450
+Parent [PID: 499]: Counter = 500
+Parent [PID: 499] finished (counter > 500)
+Exercise 4 completed (ran to completion)
+
+=== Exercise 5: Shared Memory with Semaphores ===
+Child [PID: 491] - Cycle: 75, Counter: 75
+Child [PID: 491] - Cycle: 76, Counter: 76
+Child [PID: 491] - Cycle: 77, Counter: 77
+Child [PID: 491] - Cycle: 78, Counter: 78
+Child [PID: 491] - Cycle: 79, Counter: 79
+Child [PID: 491] - Cycle: 80, Counter: 80
+Child [PID: 491] - Cycle: 81, Counter: 81
+Child [PID: 491] - Cycle: 82, Counter: 82
+Child [PID: 491] - Cycle: 83, Counter: 83
+Child [PID: 491] - Cycle: 84, Counter: 84
+Child [PID: 491] - Cycle: 85, Counter: 85
+Child [PID: 502] started. Shared counter: 102
+Child [PID: 502]: 117 is a multiple of 3
+Child [PID: 502]: 132 is a multiple of 3
+Child [PID: 502]: 156 is a multiple of 3
+Child [PID: 502]: 171 is a multiple of 3
+Child [PID: 502]: 186 is a multiple of 3
+Child [PID: 502]: 195 is a multiple of 3
+Child [PID: 502]: 210 is a multiple of 3
+Child [PID: 502]: 225 is a multiple of 3
+Child [PID: 502]: 240 is a multiple of 3
+Child [PID: 502]: 249 is a multiple of 3
+Child [PID: 502]: 264 is a multiple of 3
+Child [PID: 502]: 279 is a multiple of 3
+Child [PID: 502]: 294 is a multiple of 3
+Child [PID: 502]: 309 is a multiple of 3
+Child [PID: 502]: 318 is a multiple of 3
+Child [PID: 502]: 333 is a multiple of 3
+Child [PID: 502]: 348 is a multiple of 3
+Child [PID: 502]: 372 is a multiple of 3
+Child [PID: 502]: 387 is a multiple of 3
+Child [PID: 502]: 402 is a multiple of 3
+Child [PID: 502]: 411 is a multiple of 3
+Child [PID: 502]: 426 is a multiple of 3
+Child [PID: 502]: 441 is a multiple of 3
+Child [PID: 502]: 456 is a multiple of 3
+Child [PID: 502]: 465 is a multiple of 3
+Child [PID: 502]: 480 is a multiple of 3
+Child [PID: 502]: 495 is a multiple of 3
+Child [PID: 502] finished (counter > 500)
+Parent [PID: 501] started. Incrementing counter...
+Parent [PID: 501]: Counter = 50
+Parent [PID: 501]: Counter = 100
+Parent [PID: 501]: Counter = 150
+Parent [PID: 501]: Counter = 200
+Parent [PID: 501]: Counter = 250
+Parent [PID: 501]: Counter = 300
+Parent [PID: 501]: Counter = 350
+Parent [PID: 501]: Counter = 400
+Parent [PID: 501]: Counter = 450
+Parent [PID: 501]: Counter = 500
+Parent [PID: 501] finished (counter > 500)
+Exercise 5 completed (ran to completion)
+
+All exercises completed!
+Cleaning up all processes...
